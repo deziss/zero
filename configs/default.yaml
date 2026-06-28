@@ -1,0 +1,45 @@
+# Training configuration for Equivariant Molecular Force Predictor
+
+# Model architecture
+model:
+  max_degree: 4
+  max_l: 4
+  num_interactions: 2
+  hidden_dim: 128
+  n_rbf: 20
+  r_cut: 5.0
+  cutoff_mode: bessel
+
+# Training hyperparameters
+training:
+  epochs: 200
+  batch_size: 128
+  lr: 0.01
+  lr_min: 1e-5
+  warmup: 5
+  weight_decay: 1e-4
+  clip_value: 100.0
+  device: cuda  # or cpu
+  seed: 42
+
+# Loss configuration
+loss:
+  energy_weight: 10
+  force_weight: 1
+  normalize_by_atoms: true
+
+# Data configuration
+data:
+  dataset: qm9
+  path: data/qm9
+  train_size: 110000
+  val_size: 12000
+  test_size: 12000
+  normalize_targets: true
+
+# Output
+output:
+  checkpoint_dir: checkpoints
+  log_dir: logs
+  log_every: 10
+  save_every: 50

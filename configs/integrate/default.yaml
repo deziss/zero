@@ -1,0 +1,83 @@
+pipelines:
+  default:
+    run_physics: true
+    train_ml: true
+    enable_adaptive: true
+    enable_qm: true
+    enable_bio: true
+    enable_agent: true
+    device: cpu
+    seed: 42
+    checkpoint_dir: checkpoints/integrate/
+    log_dir: logs/integrate/
+
+physics:
+  n_particles: 100
+  dt: 0.001
+  temperature: 300.0
+  pressure: 1.0
+  potential: 'lj'
+  cutoff: 2.5
+  boundary: 'pbc'
+  thermostat: 'langevin'
+  thermostat_params:
+    gamma: 0.1
+    target_temp: 300.0
+
+ml:
+  max_degree: 4
+  max_l: 4
+  num_interactions: 2
+  hidden_dim: 128
+  n_rbf: 20
+  r_cut: 5.0
+  cutoff_mult: 2.5
+  batch_size: 32
+  lr: 0.001
+  weight_decay: 0.00001
+  epochs: 300
+
+adaptive:
+  n_levels: 5
+  force_threshold: 0.5
+  gradient_threshold: 1.0
+  uncertainty_threshold: 0.3
+  density_threshold: 0.2
+  auto_depth: true
+  scoring: 'hybrid'
+  depth_map_freq: 10
+
+qm:
+  n_qm_atoms: 50
+  n_layer_atoms: 10
+  cutoff_angstrom: 5.0
+  method: 'b3lyp'
+  basis: '6-31g'
+  surrogate_type: 'dft_surrogate'
+  max_n_atoms: 1000
+  hidden_dim: 256
+  n_layers: 6
+
+bio:
+  in_channels: 5
+  out_channels: 5
+  latent_dim: 64
+  modes: 16
+  width: 128
+  n_layers: 6
+  grid_size: 128
+  padding: 25
+  n_cells_initial: 200
+  spatial_grid: 100
+  dt: 1.0
+  signaling_range: 10.0
+  max_sim_steps: 10000
+
+agent:
+  goal: 'Discover underlying physics principles.'
+  max_iterations: 100
+  verbosity: 1
+  n_memories: 100
+  n_agents: 1
+  exploration_rate: 0.3
+  checkpoint_every: 10

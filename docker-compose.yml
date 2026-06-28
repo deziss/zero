@@ -1,0 +1,133 @@
+version: "3.8"
+
+services:
+  # ===== Jupyter Notebook (with GPU support) =====
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile.jupyter
+    container_name: zeno-jupyter
+    ports:
+      - "8888:8888"
+      - "8889:8889"   # Jupyter lab port
+    volumes:
+      - .:/workspace
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:-devmode}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    command: >
+      jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token=''
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888/api"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  # ===== Ray Cluster (distributed compute) =====
+  ray-head:
+    build:
+      context: .
+      dockerfile: Dockerfile.ray
+    container_name: zeno-ray-head
+    ports:
+      - "6379:6379"       # Ray GCS
+      - "8265:8265"       # Ray Dashboard
+      - "10001:10001"     # Ray client
+    volumes:
+      - ray-data:/tmp/ray
+      - .:/workspace
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+      - RAY_DEDUP_LOGS=0
+      - RAY_GRAFANA_HOST=http://grafana:3000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    depends_on:
+      jupyter:
+        condition: service_healthy
+    command: >
+      ray start --head
+      --node-ip-address=0.0.0.0
+      --port=6379
+      --dashboard-port=8265
+      --dashboard-host=0.0.0.0
+      --num-gpus=1
+      --temp-dir=/tmp/ray
+      --object-manager-port=12346
+      --metrics-export-port=8080
+
+  ray-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.ray
+    container_name: zeno-ray-worker
+    volumes:
+      - ray-data:/tmp/ray
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    depends_on:
+      ray-head:
+        condition: service_healthy
+    command: >
+      ray start
+      --address=ray-head:6379
+      --num-cpus=4
+      --num-gpus=1
+      --temp-dir=/tmp/ray
+
+  # ===== Grafana/Prometheus (optional monitoring) =====
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: zeno-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./ops/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.retention.time=7d
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: zeno-grafana
+    ports:
+      - "3001:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./ops/grafana/provisioning:/etc/grafana/provisioning:ro
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - prometheus
+
+volumes:
+  ray-data:
+  grafana-data:
+
+networks:
+  default:
+    name: zeno-network

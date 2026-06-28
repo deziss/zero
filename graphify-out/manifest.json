@@ -1,0 +1,474 @@
+{
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/generate_01_quantum_basics.py": {
+    "mtime": 1779784222.1119115,
+    "hash": "274b97c78c2c1bd7b735b56983022a5e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/generate_02_statmech_basics.py": {
+    "mtime": 1779784677.6929088,
+    "hash": "7c52b637136faf4ae1479c5068226294"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_equivariant_layers.py": {
+    "mtime": 1780471509.4365237,
+    "hash": "3fd1446f1a16f600f18c1bc8b9f56d56"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_qm_mm_mapper.py": {
+    "mtime": 1780473999.6227348,
+    "hash": "538cc7a23f592bb51394f16313306b81"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_mace.py": {
+    "mtime": 1780471509.3825238,
+    "hash": "b73cce99ba5ada734010e0d88193e3ef"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_spherical_harmonics.py": {
+    "mtime": 1780471509.433036,
+    "hash": "c5b31608dd36318c8837c5f9b551a486"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_qm9.py": {
+    "mtime": 1780471509.4975746,
+    "hash": "b0ed9282eb3a6f9df79c87026450fc5f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_io.py": {
+    "mtime": 1779790203.7582529,
+    "hash": "c4c82edf13383f1c416804e013930d72"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_simulation_depth.py": {
+    "mtime": 1780472420.2485182,
+    "hash": "1c8b0a3377def37696a871f0e6e5a890"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_pheno_trainer.py": {
+    "mtime": 1780474744.4290874,
+    "hash": "f15331470e2851b7c38c5dccca5b338d"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_pyscf_interface.py": {
+    "mtime": 1780473999.6955085,
+    "hash": "3e3f27a3ecd4f05ecfc4d0e28a0406d1"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_initialise.py": {
+    "mtime": 1779777464.9199526,
+    "hash": "aa17802d706506175f3e15da038bf3d0"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_integration.py": {
+    "mtime": 1780504206.914324,
+    "hash": "25e83ae7ee6e7c63eca72085a1e1a139"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_potentials.py": {
+    "mtime": 1779774337.1939719,
+    "hash": "704c221217a43d335ff466276934557f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_dft_surrogate.py": {
+    "mtime": 1780473999.7125084,
+    "hash": "668863f36cd0d8bbb030071bb7e9f397"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_inference.py": {
+    "mtime": 1780471509.4625237,
+    "hash": "c1706ed29fce94bb0b0e9249994cb6e5"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_cellular.py": {
+    "mtime": 1780474742.1575038,
+    "hash": "fd29a33d02008f7f27eac82043ac375a"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_ensemble.py": {
+    "mtime": 1779777463.9909527,
+    "hash": "d0174ea75fe19eb3c3676cbc1649fe5e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_depth_selector.py": {
+    "mtime": 1780472420.227518,
+    "hash": "861bcfad9b15938fb295ca87fd30be7c"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_uncertainty_estimator.py": {
+    "mtime": 1780472420.215518,
+    "hash": "591fdaac128a0d3cdf15528425ed7d87"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_sim.py": {
+    "mtime": 1780472420.253518,
+    "hash": "bcacb3e5e9e777dd745a55257bdc74f3"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_fno.py": {
+    "mtime": 1780474741.015504,
+    "hash": "86dd012e1093166f834b90e610a592be"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_surrogate_trainer.py": {
+    "mtime": 1780473999.6735084,
+    "hash": "fbe15031b68ec104c4b2b225bb0b09c0"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_integrators.py": {
+    "mtime": 1780413316.6407282,
+    "hash": "3d38c5bde8ea516df7d459b108d1331a"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/__init__.py": {
+    "mtime": 1779773944.6899743,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_observables.py": {
+    "mtime": 1780413721.4027624,
+    "hash": "68a4e340337f2e81a30ea2f20101d06d"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_radial_basis.py": {
+    "mtime": 1780471509.4475236,
+    "hash": "b69d02a35aa243c0091f6c03200d925a"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_switchoff_engine.py": {
+    "mtime": 1780472420.1925182,
+    "hash": "18db71c76a41acd18ddcafe89c5318ba"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_coarse_grainer.py": {
+    "mtime": 1780474743.289504,
+    "hash": "8945a0fdfb741b929840b2a83fc42add"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_train.py": {
+    "mtime": 1780471509.4764075,
+    "hash": "da94689c47fbdb71514ba812c7b86b58"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/tests/test_metrics.py": {
+    "mtime": 1780471509.4515238,
+    "hash": "5bae6946f8c1c70b238cf9eee2dc41ee"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/__init__.py": {
+    "mtime": 1779773888.5689745,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/integrate/api.py": {
+    "mtime": 1780488206.208831,
+    "hash": "83424155a78b37932b0e16e50625410b"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/integrate/pipeline.py": {
+    "mtime": 1780504374.9637208,
+    "hash": "6960461574b9da81ca363e2f554c2a7f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/integrate/__init__.py": {
+    "mtime": 1780481199.2704954,
+    "hash": "a297c7075d7e21b72e0819ec8c336ba3"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/integrate/config.py": {
+    "mtime": 1780497004.6903682,
+    "hash": "3d8b4f14aef8a60562b3695149f5200a"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/inference.py": {
+    "mtime": 1780466501.8255541,
+    "hash": "444a9980947aa09efb0ae6abbe0d4d87"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/__init__.py": {
+    "mtime": 1780466147.5835564,
+    "hash": "3f60885e9449f8879ea31fccd84f1eb1"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/datasets/qm9.py": {
+    "mtime": 1780465490.9176655,
+    "hash": "af429b8630c0eeb407f78fee87982047"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/datasets/__init__.py": {
+    "mtime": 1780465490.6945605,
+    "hash": "3dd3d22c73bd7d05a7a2e5e9d4d1a131"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/model/mace.py": {
+    "mtime": 1780466461.6605406,
+    "hash": "ac707a86009d76c95f2fa40f120b0dbf"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/model/__init__.py": {
+    "mtime": 1780465490.6615603,
+    "hash": "d2130dbeca0064e51c33858f55d597b7"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/train/__init__.py": {
+    "mtime": 1780465490.7255604,
+    "hash": "a8bcffc4fb12ec7491db4bea9057fe63"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/train/metrics.py": {
+    "mtime": 1780465490.9325604,
+    "hash": "fd6c33d4c11bf17a4b0e46ca898c4abc"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/train/train.py": {
+    "mtime": 1780465490.8982615,
+    "hash": "ebd3df4588c070edb073b3f45caf92b8"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/layers/radial_basis.py": {
+    "mtime": 1780465490.7425604,
+    "hash": "e7c08e22511335e4af86148f9695cd62"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/layers/equivariant_layers.py": {
+    "mtime": 1780465490.7515604,
+    "hash": "bbb580360a7fe24d6d5873522b39bab4"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/layers/spherical_harmonics.py": {
+    "mtime": 1780465490.7125604,
+    "hash": "9c737b74aeca958b58a1fed18d61b7fa"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/ml/layers/__init__.py": {
+    "mtime": 1780465490.6695604,
+    "hash": "c2dcbd4f43b4ade0d0ebeb2b888d9147"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/__init__.py": {
+    "mtime": 1780472276.9910932,
+    "hash": "6ea3df45eda23970fda273b4216c9c73"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/deepness/simulation_depth.py": {
+    "mtime": 1780472277.0706189,
+    "hash": "8d1b2bd7d214852c48decd8771138f9f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/deepness/__init__.py": {
+    "mtime": 1780472276.988519,
+    "hash": "834719ebb72e897f90e64d7851dfbe9f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/engine/switchoff_engine.py": {
+    "mtime": 1780472277.127198,
+    "hash": "105e12ad0ef02ff823de48c6da82270f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/engine/__init__.py": {
+    "mtime": 1780472277.003666,
+    "hash": "10d939a96a72233163d8d826a1ec5f05"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/layers/depth_selector.py": {
+    "mtime": 1780472277.019519,
+    "hash": "2fcdbdabddb5135bb00eba55ef7f2fb2"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/layers/__init__.py": {
+    "mtime": 1780472277.0433955,
+    "hash": "f9af4f5b3f4397b7a930ebc9e6bd6bf7"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/sim/layers/uncertainty_estimator.py": {
+    "mtime": 1780472277.048519,
+    "hash": "29a1f134fdd6f26fe04158f119405b3e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/__init__.py": {
+    "mtime": 1780474060.164508,
+    "hash": "2633ea34631dd0ccf7303f0100e38ffb"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/cellular/population.py": {
+    "mtime": 1780474599.765677,
+    "hash": "fe50d5f22f2c9a515de240144324567f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/cellular/__init__.py": {
+    "mtime": 1780474060.145508,
+    "hash": "a4869eb4833309211d3336f06d33198f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/cellular/cell.py": {
+    "mtime": 1780474599.7095048,
+    "hash": "d295b67ad1313afa31343e5d805a53e9"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/coarse_grain/coarse_grainer.py": {
+    "mtime": 1780474666.9245064,
+    "hash": "9ca0b76cb2cf26641e11d08ddd6d7484"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/coarse_grain/__init__.py": {
+    "mtime": 1780474060.1286588,
+    "hash": "037f11ac8c015712debf40b621f16d26"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/neural_ops/fno.py": {
+    "mtime": 1780474060.1676142,
+    "hash": "f048c46e0c0dcd3efa588d8169ead4b9"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/neural_ops/__init__.py": {
+    "mtime": 1780474060.131508,
+    "hash": "34c6e2e589bd7d68c527d2bddc4e65da"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/train/__init__.py": {
+    "mtime": 1780474666.8815043,
+    "hash": "d133919090dd9eb9e2462abad149bff4"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/bio/train/pheno_trainer.py": {
+    "mtime": 1780474666.8975043,
+    "hash": "ac3d24606fc0ee92972ee520375c7331"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/core/initialise.py": {
+    "mtime": 1779773936.1819742,
+    "hash": "82eeb965bf6a37d301c3f30852cf2e24"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/core/io.py": {
+    "mtime": 1779773917.9479744,
+    "hash": "b90b91ab75a5ffdaaa2c66c65424daaf"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/core/integrators.py": {
+    "mtime": 1779773908.6529744,
+    "hash": "53868c83197ab4938625db3b61e7bf7f"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/core/potentials.py": {
+    "mtime": 1779776013.0319617,
+    "hash": "ac5747f3f964c6c4e85f008ded94e839"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/core/__init__.py": {
+    "mtime": 1779773890.2929745,
+    "hash": "ebef807cb5425f97de517338cb273812"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/core/observables.py": {
+    "mtime": 1779773913.5709743,
+    "hash": "d0dbe90153cbc1432549c39d0f75ba8d"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/core/ensemble.py": {
+    "mtime": 1780414717.044477,
+    "hash": "1d84a3940d89e0abddb07e10a0994aa2"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/__init__.py": {
+    "mtime": 1780473823.1763985,
+    "hash": "273712882311ca04e3ba8c0fe6727677"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/mapping/qm_mm_mapper.py": {
+    "mtime": 1780473956.4450674,
+    "hash": "6b9f95bf54cdf34cf2b72850a42948f6"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/mapping/__init__.py": {
+    "mtime": 1780473899.2715588,
+    "hash": "f4c2900761d6db3d9afbb32fab0644da"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/dft/__init__.py": {
+    "mtime": 1780473743.28651,
+    "hash": "06adde9df1a97bed309a63aa0e51afbf"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/dft/pyscf_interface.py": {
+    "mtime": 1780473743.3175101,
+    "hash": "d0714bd2bbe076afe781adba2fac3cd8"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/surrogates/__init__.py": {
+    "mtime": 1780473743.30351,
+    "hash": "e23596eb5dc003196fba5ba563cd0921"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/surrogates/dft_surrogate.py": {
+    "mtime": 1780473743.3057556,
+    "hash": "57a9ab3da0254e51802b5ddeab1a7c79"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/train/surrogate_trainer.py": {
+    "mtime": 1780473956.4827342,
+    "hash": "9930692858e1c9adae29471da01e97d5"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/qm/train/__init__.py": {
+    "mtime": 1780473956.4630857,
+    "hash": "99cc7bda8706e6960e4303b8713d2c72"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/agents/__init__.py": {
+    "mtime": 1780474855.8425033,
+    "hash": "11d2ff453f94ab01730c1eba7e9d4c92"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/agents/loop/agent_loop.py": {
+    "mtime": 1780474855.8405032,
+    "hash": "5da94fd5b751be0ea472d68bbb58e4d9"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/agents/loop/__init__.py": {
+    "mtime": 1780474855.9654827,
+    "hash": "0b6eaffbc6140f803f29af0087472cbc"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/agents/reasoning/scientist.py": {
+    "mtime": 1780474893.8523147,
+    "hash": "b59365a341a11d1f817c211a9d76692c"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/src/agents/reasoning/__init__.py": {
+    "mtime": 1780474855.915216,
+    "hash": "9de237189bce0c97db74579b2c796728"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/experiments/001_lj_nve/main.py": {
+    "mtime": 1779773964.656974,
+    "hash": "bce7bd3f7608e313cc55e9c7bc2ea612"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/README.md": {
+    "mtime": 1780476447.0924935,
+    "hash": "c5d316c293703062d2a5895f8afee8bc"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/PHASE0_PLAN.md": {
+    "mtime": 1779773782.1649752,
+    "hash": "c3c0b13826768a420f1ce02f5806f5d2"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/AGENTS.md": {
+    "mtime": 1780401784.9727569,
+    "hash": "a993bd9a8466b705f520b2a269a544bc"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/PHASE1_PLAN.md": {
+    "mtime": 1780465247.8145618,
+    "hash": "e99519cea7d1b92704907c6eed326720"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/docker-compose.yml": {
+    "mtime": 1780461988.573241,
+    "hash": "2c80e81937094b6fbfdc92a93a287ead"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/requirements.txt": {
+    "mtime": 1779773888.2499745,
+    "hash": "708e3543478d77294cf8c45cf3aec939"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/configs/default.yaml": {
+    "mtime": 1780466517.1695542,
+    "hash": "035e5eb92b4f3bd4ca3d76b6f0fa9f09"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/configs/integrate/default.yaml": {
+    "mtime": 1780488374.2307553,
+    "hash": "3b8af3bccbbf020c3e4d21fcaced783b"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/configs/bio/default.yaml": {
+    "mtime": 1780474666.9113073,
+    "hash": "ff07bf32dc38420ec9fbf3d400020d18"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/configs/qm/default.yaml": {
+    "mtime": 1780473974.991556,
+    "hash": "435bbad61c7f3720adeedf143339542e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/configs/switchoff/default.yaml": {
+    "mtime": 1780472420.2335181,
+    "hash": "46c5f488d85133f1bd6a8949f58db63e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/configs/agents/default.yaml": {
+    "mtime": 1780474855.8155034,
+    "hash": "fd2a32f68c59c891306129297532c9da"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/docs/master_plan.md": {
+    "mtime": 1780402597.5229442,
+    "hash": "a1e49f569fd79dd4a562b131ad81f87e"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_boltzmann_distribution.png": {
+    "mtime": 1779790027.945994,
+    "hash": "97ff0e44bb68ced79910df79a2f9b293"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_chemical_potential.png": {
+    "mtime": 1779790033.2909937,
+    "hash": "70b917dadb65118d9bcc743b54ad74cd"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_langevin_msd.png": {
+    "mtime": 1779790034.4929938,
+    "hash": "3df3b9cece523fd3801e11ea755478e1"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/01_h2_lda_vs_pbe.png": {
+    "mtime": 1779786224.8758993,
+    "hash": "24e74ed64df37d7c26cb9c1abe7e4647"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/01_tunneling_wavefunction.png": {
+    "mtime": 1779786159.0288997,
+    "hash": "c0c8bee323a274ec6113df19b2d6810c"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_langevin_baoab_msd.png": {
+    "mtime": 1779790036.2539937,
+    "hash": "18ae69af8c5eba4aa84844f2f1089f50"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_thermodynamic_integration.png": {
+    "mtime": 1779790038.5939937,
+    "hash": "4aac1f837d5e2ab225062ff49cf0d849"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/01_tunneling_transmission.png": {
+    "mtime": 1779786158.1168997,
+    "hash": "1a3a086ea079c1ba15979c6fd1ec31b9"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_boltzmann_temperature.png": {
+    "mtime": 1779790028.7949939,
+    "hash": "6744019555bb5f04ee9dd06c324cae37"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_partition_function.png": {
+    "mtime": 1779790032.1229937,
+    "hash": "98f2f6a4e7f9211d0a0deef8236027d9"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_ti_convergence.png": {
+    "mtime": 1779790039.7499938,
+    "hash": "49e798bfc8507c07eb0dd45cca5022ef"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/02_gibbs_free_energy.png": {
+    "mtime": 1779790029.8429937,
+    "hash": "92af34b9b4ec390fcfb2863253e26307"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/01_probability_density.png": {
+    "mtime": 1779786150.9418998,
+    "hash": "c4c50c8e9d9c4d91f24f842b9715b6b2"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/01_infinite_well_eigenfunctions.png": {
+    "mtime": 1779786149.6868997,
+    "hash": "4476132b91868c9f644ea10b16a89698"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/01_h2_energy_curve.png": {
+    "mtime": 1779786190.7768996,
+    "hash": "1b6ce8b3de17d4ae71439227b9c46390"
+  },
+  "/home/anshukushwaha/95095/Backup/Desktop/learn/zero/figures/01_dft_lda_energy.png": {
+    "mtime": 1779786160.4828997,
+    "hash": "e18656e788fd4c69033bed22951becfb"
+  }
+}

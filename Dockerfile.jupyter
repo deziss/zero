@@ -1,0 +1,47 @@
+FROM nvidia/cuda:12.2.0-runtime-ubuntu22.04
+
+# Avoid interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
+
+# System deps
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    wget \
+    build-essential \
+    libxext6 \
+    libxtst6 \
+    libxrender1 \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Python env
+RUN wget -qO /opt/venv.tar.gz https://www.python.org/ftp/python/3.12.3/Python-3.12.3.tgz.xz 2>/dev/null || true
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 \
+    python3-pip \
+    python3-venv \
+    && rm -rf /var/lib/apt/lists/*
+
+# Working directory
+WORKDIR /workspace
+
+# Copy requirements and install Python deps
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt 2>/dev/null || \
+    pip install numpy matplotlib pytest h5py torch 2>/dev/null || true
+
+# Copy project
+COPY . .
+
+# Set jupyter token if not provided
+ENV JUPYTER_TOKEN=0
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+    CMD curl -f http://localhost:8888/api || exit 1
+
+# Expose ports
+EXPOSE 8888 8889
+
+# Default command
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root"]

@@ -1,0 +1,32 @@
+bio_config:
+  n_cells_initial: 200
+  spatial_grid: 100
+  dt: 1.0
+  signaling_range: 10.0
+  max_sim_steps: 10000
+
+fno:
+  in_channels: 5
+  out_channels: 5
+  latent_dim: 64
+  modes: 16
+  width: 128
+  n_layers: 6
+  
+  grid_size: 128
+  padding: 25
+
+training:
+  lr: 8e-4
+  weight_decay: 1e-5
+  batch_size: 4
+  epochs: 200
+  checkpoint_every: 20
+  early_stopping_patience: 40
+  gradient_clipping: 1.0
+  scheduler_patience: 15
+  scheduler_factor: 0.5
+
+checkpoint_dir: checkpoints/bio/
+log_dir: logs/bio/
+experiment_dir: experiments/bio/

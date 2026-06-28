@@ -1,0 +1,33 @@
+# Agent configuration defaults
+agents:
+  # Agent loop config
+  n_agents: 1
+  max_iterations: 100
+  verbosity: 1
+  checkpoint_every: 10
+  
+  # Scientist agent config
+  scientist:
+    name: Scientist
+    expertise: general_science
+    n_memories: 100
+    exploration_rate: 0.3
+    belief_update_weight: 0.1
+    confidence_thresholds:
+      high: 0.8
+      medium: 0.5
+      low: 0.2
+  
+  # Theory builder config
+  theory_builder:
+    min_supporting_tests: 3
+    falsification_penalty: 0.3
+    confidence_decay: 0.9
+  
+  memory:
+    max_entries: 1000
+    eviction_policy: oldest_first
+  
+  log_dir: logs/agents/
+  checkpoint_dir: checkpoints/agents/
+  goal: "discover underlying physical principles governing molecular dynamics"

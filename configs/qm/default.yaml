@@ -1,0 +1,36 @@
+qmmapper:
+  n_qm_atoms: 50
+  n_layer_atoms: 10
+  cutoff_angstrom: 5.0
+  min_qm_atoms: 25
+  max_qm_atoms: 200
+
+dft:
+  default_method: b3lyp
+  default_basis: 6-31g
+  max_memory: 4096
+  grid: tight
+
+surrogate:
+  model_type: dft_surrogate
+  n_atomic_types: 100
+  hidden_dim: 256
+  n_layers: 6
+  max_n_atoms: 1000
+  rbf_centers: 32
+  rbf_max_dist: 10.0
+
+training:
+  lr: 1e-3
+  weight_decay: 1e-5
+  batch_size: 32
+  epochs: 300
+  val_split: 0.1
+  checkpoint_every: 25
+  early_stopping: 50
+  gradient_clipping: 1.0
+  w_energy: 1.0
+  w_force: 10.0
+
+checkpoint_dir: checkpoints/qm/
+log_dir: logs/qm/

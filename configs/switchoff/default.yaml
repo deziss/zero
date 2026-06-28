@@ -1,0 +1,31 @@
+# Switchoff engine configurations
+switchoff:
+  # Depth levels
+  n_levels: 5
+  
+  # Scoring thresholds
+  scoring:
+    force_threshold: 0.5
+    gradient_threshold: 1.0
+    uncertainty_threshold: 0.3
+    density_threshold: 0.2
+    
+  # Decision rules
+  rules:
+    auto_depth: true
+    force_based: true
+    gradient_based: true
+    uncertainty_based: true
+    hybrid: true
+    
+  # Output
+  save_depth_map: true
+  save_region_stats: true
+  
+  # AI integration
+  ai_model: mace  # or 'ensemble'
+  ai_input: features  # node features from MACE
+  
+  # Logging
+  log_depth_changes: true
+  log_frequency: 10  # every N steps
